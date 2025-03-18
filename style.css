@@ -19,12 +19,24 @@ nav{
     height:500px;
         background-color:white;
             width: 100%;
+                display:flex
 
 }
 footer{
     width: 100%;
         background-color: aqua;
             height: 100px;
+}
+#sidebar{
+    display:inline;
+        background-color: blueviolet;
+            height: 100%;
+                width: 20%;
+}
+#inner-container{
+    background-color: chartreuse;
+        height:100%;
+            width: 80%;
 }
 @media only screen and (min-width: 421px) {
     body {
