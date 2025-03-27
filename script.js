@@ -2,7 +2,7 @@
 let output = document.getElementById("code-output");
 //printing the value of output in the console
 console.log("output = ", output);
-let x = "Quincient";
+let x = "Q";
 //declaration and initialization of the variable with the value 3
 let y = 3 ;
 
