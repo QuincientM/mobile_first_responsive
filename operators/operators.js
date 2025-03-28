@@ -12,7 +12,7 @@ console.log("x * 3 = ",z);
 let y = x + 5;
 console.log("x + 5 = ",y);
 
-// the + sign can be used as a concatenator operator for strings
+// the + sign can be used to concatenate operator for strings
 let a = ""
 let b = a + y;
 console.log("a + y =",b);
