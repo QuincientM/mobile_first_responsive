@@ -31,7 +31,7 @@ button.addEventListener('click', function(){
 
 /*
 
-this is a function definiton
+this is a function definition
 function name (perams) {
     the action the function does
 }
