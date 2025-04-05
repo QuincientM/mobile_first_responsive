@@ -12,10 +12,10 @@ x = "John";
 //permanently set the variable name to logan
 const name = "Logan"
 //unable to change the name value to roman
-name = "roman" ;
+//name ="roman"
 
 //declaration of age
 let age;
 //initialization of age
 age = 33;
-output.innerHTML= name;
+output.innerHTML= age;
