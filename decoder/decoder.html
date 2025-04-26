@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Decoder</title>
-        <link href="../style.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div id="responsive">
-            <header>Decoder</header>
-            <nav>Menu</nav>
-            <div id="container">
-                <div id="sidebar">sidebar</div>
-
-                <div id="inner-container">inner-container
-                    <div>Enter word to remove vowels</div>
-                    <div id="output"></div>
-                    <input type="text" id="word">
-                    <input type = "text" id="num">
-                    <button id="button" onclick="decoder()">decoder</button>
-                    <button id="button" onclick="encoder()">encoder</button>
-                    <div id="code-output"></div>
-                </div>
-            
-            
-            </div>
-            <footer>
-                Mobile
-            </footer>
+  <head>
+    <title>Decoder</title>
+    <link href="../style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="responsive">
+      <header>Decoder</header>
+      <nav>
+        <div id="hamburger" onclick="menu(this)">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <script src="decoder.js"></script>
-    </body>
+
+        <ul id="menuitems">
+          <li>
+            <a href="../index.html"><button>HOME</button></a>
+          </li>
+          <li>
+            <a href="/education/edu.html"><button>Education</button></a>
+          </li>
+          <li>
+            <a href="/mission/mission.html"><button>Mission</button></a>
+          </li>
+          <li>
+            <a href="/experience/exe.html"><button>Experience</button></a>
+          </li>
+          <li>
+            <a href="../javascript/javascript.html">
+              <button>J.S. LESSON</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div id="container">
+        <div id="sidebar">sidebar</div>
+
+        <div id="inner-container">
+          inner-container
+          <div>Enter word to remove vowels</div>
+          <div id="output"></div>
+          <input type="text" id="word" />
+          <input type="text" id="num" />
+          <button id="button" onclick="decoder()">decoder</button>
+          <button id="button" onclick="encoder()">encoder</button>
+          <div id="code-output"></div>
+        </div>
+      </div>
+      <footer>Mobile</footer>
+    </div>
+    <script src="decoder.js"></script>
+    <script src="../Hamburger/hamburger.js"></script>
+  </body>
 </html>

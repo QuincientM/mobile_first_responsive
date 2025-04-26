@@ -2,10 +2,10 @@
 const menuitems = document.getElementById("menuitems");
 let menu = (elem)=> { 
     console.log("THIS is", elem.nextElementSibling.style.display);
-    if(elem.nextElementSibling.style.display == ""){
-         menuitems.style.display = "flex"  
+    if(elem.nextElementSibling.style.display == "none"){
+         menuitems.style.display = "flex"
     }
     else{
-        menuitems.style.display = "" 
+        menuitems.style.display = "none"
     }
 }
